@@ -34,7 +34,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -138,7 +138,7 @@ li > label {
 }
 
 li >    input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 li > button.delete:hover {
@@ -163,7 +163,7 @@ ul#completed-tasks label {
 
 /* Edit Task */
 ul li input[type=text] {
-  display: none
+  display: none;
 }
 
 ul li.edit-mode input[type=text] {
@@ -172,5 +172,5 @@ ul li.edit-mode input[type=text] {
 }
 
 ul li.edit-mode label {
-  display: none;
+  display: git add none;
 }
