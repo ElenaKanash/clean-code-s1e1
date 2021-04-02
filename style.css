@@ -42,7 +42,7 @@ body {
   display: flex;
 }
 
-ul {
+.list {
   margin: 0;
   padding: 0px;
 }
@@ -53,7 +53,7 @@ li,
 }
 
 input,
-button{
+.btn {
   outline: none;
 }
 
@@ -159,21 +159,21 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.list#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.list li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+.list li.edit-mode input[type=text] {
   display: inline-block;
   width: 224px
 }
 
-ul li.edit-mode label {
+.list li.edit-mode label {
   display: git add none;
 }
